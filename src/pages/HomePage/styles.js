@@ -3,14 +3,20 @@ import styled from "styled-components";
 export const HomePageContainer = styled.div`
     display: flex;
     flex-direction: column;
+    font-family: 'Koulen', cursive;
     align-items: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: #e0bbbf;
+    background-color: #557695;
     height: auto;
     min-height: 100vh;
     padding-bottom: 50px;
-    color: #1C3144;
+    color: #E3F2FD;
     text-shadow: 1px 1px #1C3144;
+`
+
+export const Maintitle = styled.h1`
+    font-family: 'Koulen', cursive;
+    color: #1C3144;
+    font-size: 50px;
 `
 
 export const CardsContainer = styled.div`
@@ -33,7 +39,7 @@ export const SingleCardContainer = styled.div`
     padding: 15px;
     color: white;
     font-size: 16px;
-    box-shadow: 5px 5px 10px 2px #1C3144;
+    box-shadow: 5px 5px 10px 2px #4A83A2;
     text-transform: capitalize;
 
     div{
@@ -55,27 +61,26 @@ export const SingleCardContainer = styled.div`
         transition: all 800ms;
         transform: scale(1.05);
         position:relative;
-        box-shadow: 5px 5px 10px 2px #e3293b;
+        box-shadow: 5px 5px 10px 2px #DFDB74;
     }
 `
 
 export const SelectCategory = styled.select`
     margin-bottom: 50px;
     margin-top: 20px;
-	background-color:#db5462;
-	border-radius:19px;
-	border:2px solid #db5462;
-	display:inline-block;
+	background-color:#4A83A2;
+	border-radius: 20px;
+	border:2px solid #DFDB74;
+    font-family: 'Koulen', cursive;
 	cursor:pointer;
 	color:#ffffff;
-	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	font-size:18px;
 	padding:6px 15px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #8f313a;
+	text-shadow:0px 1px 0px #4A83A2;
 
 &:hover {
-	background-color:#b0444f;
+	background-color:#1C3144;
 } 
 
 &:active {
@@ -124,9 +129,9 @@ export const ImagePokemon = styled.img`
 `
 
 export const PokemonNameCard = styled.p`
-    background-color: #52af59;
-    color: white;
-    text-shadow: 2px 2px 2px black;
+    background-color: #DFDB74;
+    color: black;
+    text-shadow: 2px 2px 2px white;
     height: 28px;
     border-radius: 19px;
     padding-left: 50px;

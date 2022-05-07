@@ -6,7 +6,7 @@ export const HeaderContainer = styled.header `
     justify-content: space-between;
     height: 70px;
     padding: 0 10px;
-    background-color: #e3293b;
+    background-color: #1C3144;
 `
 // #DB5461
 export const LogoPokeball = styled.img`

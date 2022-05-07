@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useContext } from "react";
 import { useHistory } from "react-router";
 import Header from "../../components/Header/Header";
-import { HomePageContainer, CardsContainer, SingleCardContainer, SelectCategory, PokeballImage, PokedexImage, DetalhesImage, ImagePokemon, PokemonNameCard } from './styles';
+import { HomePageContainer, CardsContainer, SingleCardContainer, SelectCategory, PokeballImage, PokedexImage, DetalhesImage, ImagePokemon, PokemonNameCard, Maintitle } from './styles';
 import { goToDetails } from '../../routes/Coordinator';
 import { getPokemons, getDetailPokemon, getPokemonsTypes } from '../../services/requests';
 import { GlobalContext } from "../../contexts/GlobalContext";
@@ -81,7 +81,7 @@ function HomePage() {
         <div>
             <Header />
             <HomePageContainer>
-                <h1>Base de Pokémons</h1>
+                <Maintitle>Base de Pokémons</Maintitle>
                 <SelectCategory  onChange={handleCategories}>
                     <option value='all' defaultValue>Selecione uma categoria</option>
                     {renderCategories}

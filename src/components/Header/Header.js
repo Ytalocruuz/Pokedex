@@ -11,6 +11,15 @@ const Header = () => {
 
     return (
         <HeaderContainer>
+             {history.location.pathname === "/pokedex" 
+            ?
+            <></> 
+            : 
+            <GoToPokedexContainer onClick={() => goToPokedex(history)}>
+                <IrParaPokedex src={pokedex}/>
+                <LogoPokeball src={pokeball} alt="logo" />
+            </GoToPokedexContainer>
+            }
             <a onClick={() => goToHome(history)}>
                 <LogoPokeDev src={pokedev} />
             </a>
@@ -19,8 +28,8 @@ const Header = () => {
             <></> 
             : 
             <GoToPokedexContainer onClick={() => goToPokedex(history)}>
+                 <LogoPokeball src={pokeball} alt="logo" />
                 <IrParaPokedex src={pokedex}/>
-                <LogoPokeball src={pokeball} alt="logo" />
             </GoToPokedexContainer>
             }
         </HeaderContainer>
