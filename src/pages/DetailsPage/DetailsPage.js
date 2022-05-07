@@ -34,7 +34,7 @@ const DetailsPage = () => {
             <ContainerDetail>
                 <h1>{pokemonDetails.name}</h1>
                 <CardPhoto>
-                    <img src={photoPokeFront} alt="Imagem pokemon de frente"/>
+                <img src={photoPokeFront} alt="Imagem pokemon de frente"/>
                 </CardPhoto>
                 <CardPhoto>
                     <img src={photoPokeback} alt="Imagem pokemon de costas" />
@@ -65,7 +65,6 @@ const DetailsPage = () => {
                 </ContainerTipo>
                 <ContainerCarcter>
                     <h2>Principais Características</h2>
-                    <hr/>
                     <div>
                         <h4>Peso: </h4>
                         <span>{((pokemonDetails.weight) / 10).toFixed(1)} Kg</span>

@@ -66,16 +66,15 @@ export const SingleCardContainer = styled.div`
 `
 
 export const SelectCategory = styled.select`
-    margin-bottom: 50px;
-    margin-top: 20px;
+    margin-bottom: 20px;
 	background-color:#4A83A2;
 	border-radius: 20px;
 	border:2px solid #DFDB74;
     font-family: 'Koulen', cursive;
 	cursor:pointer;
 	color:#ffffff;
-	font-size:18px;
-	padding:6px 15px;
+	font-size:25px;
+	padding:5px 12px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #4A83A2;
 
