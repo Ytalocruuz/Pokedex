@@ -10,6 +10,16 @@ O projeto Pokedev é baseado na utilização da API pública "Poke Api" para cri
 * Limpar toda a lista da pokedex.
 * Detalhes de determinado pokemon.
 
+O projeto Pokedev é baseado na utilização da API pública "Poke Api" para criar uma pokedex online, aonde o usuário do aplicativo, poderá através de uma lista personalizada adicionar, remover e visualizar os destalhes de determinados pokemons escolhidos para sua pokedex.
+
+
+* Adicionar Pokemons para a pokedex.
+* Remover Pokemons adicionados na página da pokedex.
+* Listagem de Pokemons disponíveis na HomePage.
+* Filtrar Pokemons por seu tipo.
+* Limpar toda a lista da pokedex.
+* Detalhes de determinado pokemon.
+
 <!-- ### LINK DO SITE
 https://pokedev-labenu.surge.sh/ -->
 
