@@ -30,7 +30,7 @@ https://pokedev-labenu.surge.sh/ -->
 
 ### PRINT DO SITE
 ![home](https://user-images.githubusercontent.com/72119120/168188605-f8c6c116-0b86-49b3-b0f3-0ca43364b7a7.PNG)
-![image](https://user-images.githubusercontent.com/84817937/138536341-585895b6-db3f-4317-9b0b-b60126a87b45.png)
+![detail](https://user-images.githubusercontent.com/72119120/168188697-6df78c8f-b882-47fc-8c1c-60e40d06aae6.PNG)
 ![image](https://user-images.githubusercontent.com/84817937/138536346-8811f7ef-6ac6-4b59-a7b6-96d762a7c56d.png)
 
 <!-- ### WIREFRAME
