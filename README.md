@@ -10,8 +10,8 @@ O projeto Pokedev é baseado na utilização da API pública "Poke Api" para cri
 * Limpar toda a lista da pokedex.
 * Detalhes de determinado pokemon.
 
-<!-- ### LINK DO SITE
-https://pokedev-labenu.surge.sh/ -->
+### LINK DO SITE
+http://spiky-rice.surge.sh/
 
 ### LOGO
 ![PokeDev 905fe1d0](https://user-images.githubusercontent.com/84817937/138535643-9a88817a-2318-41d7-b089-43e49a70d65e.png)
